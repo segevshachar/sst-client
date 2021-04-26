@@ -1,5 +1,5 @@
 const dev = { 
-  STRIPE_KEY: "YOUR_STRIPE_DEV_PUBLIC_KEY",
+  STRIPE_KEY: "pk_test_51IkS5cLDaSry0qLQ4ZK9i7A6J80nwekknuwWBDqGNIPmhiP6iMDlg8KiYqRQStZrpJtYgQlMDO8EJVd1KpqbK8Fh00qFeuNyXa",
   s3: {
     REGION: "us-east-1",
     BUCKET: "dev-notes-infra-s3-uploads4f6eb0fd-12m0f7dftfatf"
@@ -17,7 +17,7 @@ const dev = {
 };
 
 const prod = {
-  STRIPE_KEY: "YOUR_STRIPE_PROD_PUBLIC_KEY",
+  STRIPE_KEY: "pk_test_51IkS5cLDaSry0qLQ4ZK9i7A6J80nwekknuwWBDqGNIPmhiP6iMDlg8KiYqRQStZrpJtYgQlMDO8EJVd1KpqbK8Fh00qFeuNyXa",
   s3: {
     REGION: "us-east-1",
     BUCKET: "prod-notes-infra-s3-uploads4f6eb0fd-z1bnpx7zvql4"

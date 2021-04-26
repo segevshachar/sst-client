@@ -8,6 +8,7 @@ import NewNote from "./containers/NewNote";
 import Notes from "./containers/Notes";
 import AuthenticatedRoute from "./components/AuthenticatedRoute";
 import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
+import Settings from "./containers/Settings";
 
 
 export default function Routes() {
@@ -27,6 +28,9 @@ export default function Routes() {
       </AuthenticatedRoute>
       <AuthenticatedRoute exact path="/notes/:id">
         <Notes />
+      </AuthenticatedRoute>
+      <AuthenticatedRoute exact path="/settings">
+        <Settings />
       </AuthenticatedRoute>
       {/* Finally, catch all unmatched routes */}
       <Route>
