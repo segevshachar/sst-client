@@ -5,7 +5,7 @@ import { onError } from "../libs/errorLib";
 import config from "../config";
 import { Elements, StripeProvider } from "react-stripe-elements";
 import BillingForm from "../components/BillingForm";
-import "./Settings.css";
+import "./Setting.css";
 
 export default function Settings() {
   const history = useHistory();

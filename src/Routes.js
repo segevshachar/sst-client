@@ -8,7 +8,7 @@ import NewNote from "./containers/NewNote";
 import Notes from "./containers/Notes";
 import AuthenticatedRoute from "./components/AuthenticatedRoute";
 import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
-import Settings from "./containers/Settings";
+import Settings from "./containers/Setting";
 
 
 export default function Routes() {
