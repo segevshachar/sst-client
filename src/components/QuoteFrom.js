@@ -153,9 +153,10 @@ export default function QuoteForm() {
             <Form.Label>Manufacturer</Form.Label>
             <Form.Control as="select" defaultValue="Choose..."
               onChange={handleChange}
-              isInvalid={!!errors.manufacturer}>
-
-              <option>Choose...</option>
+              isInvalid={!!errors.manufacturer}
+              name="manufacturer"
+              value={values.manufacturer}>
+              <option value="">Choose...</option>
               <option>Benetue</option>
               <option>Yamar</option>
             </Form.Control>
