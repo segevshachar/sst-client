@@ -9,6 +9,7 @@ import Notes from "./containers/Notes";
 import AuthenticatedRoute from "./components/AuthenticatedRoute";
 import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
 import Settings from "./containers/Setting";
+import QuoteForm from "./components/QuoteFrom";
 
 
 export default function Routes() {
@@ -31,6 +32,9 @@ export default function Routes() {
       </AuthenticatedRoute>
       <UnauthenticatedRoute exact path="/settings">
         <Settings />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/quote">
+        <QuoteForm />
       </UnauthenticatedRoute>
       {/* Finally, catch all unmatched routes */}
       <Route>

@@ -66,13 +66,16 @@ export default function Home() {
     return (
       <div className="lander">
         <h1>Scratch</h1>
-        <p className="text-muted">A simple note taking app Lander</p>
+        <p className="text-muted">A simple note taking app</p>
         <div className="pt-3">
           <Link to="/login" className="btn btn-info btn-lg mr-3">
             Login
           </Link>
-          <Link to="/signup" className="btn btn-success btn-lg">
+          <Link to="/signup" className="btn btn-success btn-lg mr-3">
             Signup
+          </Link>
+          <Link to="/quote" className="btn btn-success btn-lg">
+            Quote
           </Link>
         </div>
       </div>
